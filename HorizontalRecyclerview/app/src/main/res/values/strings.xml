@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">UDAAN</string>
+    <string name="general">General</string>
+    <string name="personal_details">Personal Details</string>
+    <string-array name="fontSize_array">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="full_name">Full Name</string>
+    <string name="email_address">Email</string>
+    <string name="choose_password">Choose Password</string>
+    <string name="mobile_number">Contact</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="prompt_password">password</string>
+    <string name="prompt_email">email</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="rate_us_tagline">We hope you enjoyed our app today</string>
+    <string name="Aboutus_title">Udaan aeromodelling -we fly in the sky</string>
+    <string name="aboutus_content">udaan aeromodelling founded in 2014 in PGI college under the guidence of Rahul Singhi sir . Udaan is a club where student of different branches come to show there passion and interest toward aeromodelling. We give plate form to the student to explore there potential and polish there skill so that they and show there potential in field of udaan . so many student participeted in different contest of aeromodelling such competition organised in IIT Mumbai, IIT Kharagpur, MNIT Jaipur , JECRC Jaipur . we won lot/"s awards and trophy outside the jaipur as well as in college . we are welcome you to be a member of Udaan  </string>
+    <string name="aboutus_content1">For any help and support contact us</string>
+    <string name="aboutus_content2">MAVIYA KHAN</string>
+    <string name="aboutus_contact">7891323775</string>
+    <string name="logo">logo</string>
+    <string name="help_and_support">Help and Support</string>
+    <string name="frequent_asked_questions">Frequent Asked Questions</string>
+    <string name="can_t_find_your_topic_here">Can\'t find your topic here?</string>
+    <string name="refernearn">referNearn</string>
+    <string name="background">background</string>
+    <string name="splash_bg">splash__bg</string>
+    <string name="sign_up_with_facebook">Sign Up with Facebook</string>
+    <string name="or">OR</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="M">MOBILE_NO</string>
+    <string name="sign_up_with_google">Sign Up with Google</string>
+    <string name="new_offers_available">NEW OFFERS AVAILABLE</string>
+    <string name="there_are">THERE ARE</string>
+    <string name="latest_offers">Latest Offers</string>
+    <string name="rewards"> REWARDS</string>
+</resources>
+
+
+
+
+
+<!--FlyingPaisa - India\'s Most Paying Cashback App-->
+
+<!--Cashback the name itself is so cheerful and so it delights all users. We here at FlyingPaisa provides you all shopper\'s digital coupons and exciting cashbacks. We connect you to your favourite brand and stores to shop with benifit and earning extra cashback and hence joy. Sellers provide you with the most reasonable prices here. Our huge network includes food, fashion, clothing, accessories, electronics and a never ending list. Come get a great user experience and huge discount on your loved products at the most reasonable prices. Available offers are displayed to you so don\'t wait, first grab them before the offer expires.-->

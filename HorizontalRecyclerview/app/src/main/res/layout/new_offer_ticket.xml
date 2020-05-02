@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@android:color/white"
+        android:elevation="8dp"
+        app:cardCornerRadius="4dp"
+        android:layout_marginBottom="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewNewOfferSticker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="377 NEW"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:background="@drawable/new_offers_sticker"
+                android:textColor="@android:color/white"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true" />
+
+            <ImageView
+                android:id="@+id/imageViewLogo"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:scaleType="fitCenter"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_alignParentStart="true"
+                tools:srcCompat="@tools:sample/avatars[8]" />
+
+            <LinearLayout
+                android:layout_width="260dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/imageViewLogo"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/textViewCompanyName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FlipKart"
+                    android:textSize="20sp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/buttonRewards"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="5 Rewards"
+                    android:textColor="@android:color/holo_orange_dark"
+                    android:background="@drawable/new_offers_sticker_button_background"
+                    android:padding="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textAlignment="center"
+                    android:textSize="12sp"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>

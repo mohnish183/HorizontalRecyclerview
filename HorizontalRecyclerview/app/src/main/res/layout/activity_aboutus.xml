@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#33222211"
+
+    tools:context=".Aboutus">
+    <android.support.v7.widget.Toolbar
+        app:titleTextColor="#000000"
+        app:title="About Us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f1e827"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/Aboutus_title"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aboutus_content"
+
+
+        android:textColor="#000000" />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textColor="#00155F"
+        android:text="@string/aboutus_content1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textColor="#00155F"
+        android:text="@string/aboutus_content2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textColor="#00155F"
+        android:text="@string/aboutus_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textStyle="italic"
+        android:layout_marginTop="5dp"
+        android:textColor="#00155F"
+        android:text="www.udaanaeromodelling.com"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        tools:ignore="HardcodedText" />
+    <Button
+        tools:ignore="HardcodedText"
+        android:textColor="#000000"
+        android:background="#f1e827"
+        android:layout_marginTop="10dp"
+        android:text="TERMS AND CONDITIONS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        tools:ignore="HardcodedText"
+        android:textColor="#000000"
+        android:background="#f1e827"
+        android:layout_marginTop="10dp"
+        android:text="PRIVACY POLICY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+</ScrollView>
+</RelativeLayout>

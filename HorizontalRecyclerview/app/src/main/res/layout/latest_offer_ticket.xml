@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:background="@android:color/white"
+        android:elevation="8dp"
+        app:cardCornerRadius="4dp"
+        android:layout_marginBottom="8dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/imageViewLogo"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:scaleType="fitCenter"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_alignParentStart="true"
+                tools:srcCompat="@tools:sample/avatars[8]" />
+
+            <LinearLayout
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/imageViewLogo"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/textViewOffer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Flat 50% Cashback on all your orders"
+                    android:textSize="18sp"
+                    android:textColor="@color/dark_grey_text"/>
+
+                <TextView
+                    android:id="@+id/buttonCashback"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="UpTo Rs. 200 Cashback"
+                    android:textColor="@android:color/holo_orange_dark"
+                    android:background="@drawable/new_offers_sticker_button_background"
+                    android:padding="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textAlignment="center"
+                    android:textSize="12sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/light_grey"
+                android:orientation="horizontal"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/ic_people_black_24dp"/>
+                    <TextView
+                        android:id="@+id/textViewNumberOfUsers"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="34 Users"
+                        android:textColor="@color/lighter_grey_text"
+                        android:paddingStart="10dp"
+                        tools:ignore="RtlSymmetry" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/ic_access_time_black_24dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/textViewTimeLeft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="193 days left"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/lighter_grey_text"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>

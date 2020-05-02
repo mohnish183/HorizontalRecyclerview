@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/imageViewLogo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars[3]" />
+
+        <View
+            android:id="@+id/separator"
+            android:layout_width="1dp"
+            android:layout_height="120dp"
+            android:background="@android:color/black"
+            app:layout_constraintStart_toEndOf="@id/imageViewLogo"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:id="@+id/textViewCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Category"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@id/separator"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewCouponDescription"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:text="Coupon description lorem ipsum dolor sit amet"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            app:layout_constraintStart_toEndOf="@id/separator"
+            app:layout_constraintTop_toBottomOf="@+id/textViewCategory" />
+
+        <!--visibility is set to GONE when type == OFFER-->
+        <TextView
+            android:id="@+id/buttonGetCouponCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="GET COUPON CODE"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"
+            android:padding="10dp"
+            android:background="#FF5722"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <!--visibility is set to GONE when type == COUPON-->
+        <TextView
+            android:id="@+id/buttonGrabOffer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="GRAB OFFER"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"
+            android:padding="10dp"
+            android:background="#4CAF50"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <!--visibility is set to GONE when type == COUPON-->
+        <TextView
+            android:id="@+id/textViewMarkedPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="$20"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@id/separator"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+        <!--visibility is set to GONE when type == COUPON-->
+        <TextView
+            android:id="@+id/textViewDiscountedPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_marginStart="5dp"
+            android:text="$15"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@id/textViewMarkedPrice"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</LinearLayout>

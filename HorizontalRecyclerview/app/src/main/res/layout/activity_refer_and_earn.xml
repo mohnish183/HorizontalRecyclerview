@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Refer_and_earn"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:background="#f1e827"
+        app:titleTextColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Refer And Earn"></android.support.v7.widget.Toolbar>
+
+
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <LinearLayout
+            android:background="#D8D8D8"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/udaan_logo"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Refer The link | Fly with UDAAN"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+            <LinearLayout
+                android:layout_height="200dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="#00154f"
+                android:layout_marginTop="30dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Your Referal Link"
+                    android:textColor="#f4af1b"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:textSize="25dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Copy the Link below and share with your friends "
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#f4af1b"
+                    android:textSize="18dp"/>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#fff"
+                    android:textColor="#00154f"
+                    android:text="http://play.google.com/store/"
+                    tools:layout_editor_absoluteX="164dp"
+                    tools:layout_editor_absoluteY="164dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:textSize="24dp"
+                    android:editable="false"/>
+
+            </LinearLayout>
+            <!--<LinearLayout-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:layout_marginTop="10dp">-->
+                <!--<TableRow-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:background="#444"-->
+                    <!--android:layout_marginTop="45dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--/>-->
+                <!--<TextView-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:text="SHARE VIA"-->
+                    <!--android:textAlignment="center"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:gravity="center"-->
+                    <!--android:textSize="25dp"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:layout_marginTop="30dp"-->
+                    <!--/>-->
+                <!--<TableRow-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:background="#444"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:layout_marginTop="45dp"-->
+                    <!--/>-->
+            <!--</LinearLayout>-->
+            <android.support.constraint.ConstraintLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp">
+                <!--<ImageView-->
+                    <!--android:onClick="whatsapp"-->
+                    <!--android:layout_height="40dp"-->
+                    <!--android:layout_width="40dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:src="@drawable/whatsapp"-->
+                    <!--/>-->
+                <!--<ImageView-->
+                    <!--android:onClick="facebook"-->
+                    <!--android:layout_height="40dp"-->
+                    <!--android:layout_width="40dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:src="@drawable/facebook"-->
+                    <!--/>-->
+                <!--<ImageView-->
+
+
+                    <!--android:layout_height="40dp"-->
+                    <!--android:layout_width="40dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:src="@drawable/messgae"-->
+                    <!--/>-->
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="#f1e827"
+                    android:onClick="share"
+                    android:text="Share via"
+                    android:textColor="#000000"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </android.support.constraint.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

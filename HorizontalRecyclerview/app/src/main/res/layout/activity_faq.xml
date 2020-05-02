@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FAQActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:titleTextColor="#F4AF1B"
+        app:title="FAQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f1e827"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+
+    <TextView
+        android:id="@+id/questions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:text="@string/frequent_asked_questions"
+        android:layout_below="@+id/toolbar"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewFAQ"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/questions"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/questions"
+        android:paddingBottom="40dp"/>
+
+    <Button
+        android:onClick="onClickButton"
+        android:id="@+id/buttonTopicNotFound"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/can_t_find_your_topic_here"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>

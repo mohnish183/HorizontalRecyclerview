@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#4A6572"
+    tools:context=".CardViewActivity">
+
+   <!-- <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f1e827"
+        app:title="Stores"
+        app:titleTextColor="@color/cardview_light_background"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        ></android.support.v7.widget.Toolbar>
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/card_view_recycler_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </android.support.design.widget.CoordinatorLayout> -->
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="2dp"
+        android:layout_gravity="center"
+        android:src="@drawable/facebook"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="facebook"
+        android:onClick="facebook1"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:background="#f1e827"
+        android:layout_margin="10sp"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="2dp"
+        android:layout_gravity="center"
+        android:src="@drawable/youtube"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="youtube"
+        android:onClick="youtube1"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:background="#f1e827"
+        android:layout_margin="10sp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="2dp"
+        android:layout_gravity="center"
+        android:src="@drawable/insta"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="instagram"
+        android:onClick="insta1"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:background="#f1e827"
+        android:layout_margin="10sp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="2dp"
+        android:layout_gravity="center"
+        android:src="@drawable/linkedin"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="linkedln"
+        android:onClick="linkedin1"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:background="#f1e827"
+        android:layout_margin="10sp"/>
+
+
+
+</LinearLayout>

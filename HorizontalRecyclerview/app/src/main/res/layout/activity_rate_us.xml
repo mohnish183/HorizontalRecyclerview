@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".RateUsActivity">
+    <android.support.v7.widget.Toolbar
+        app:titleTextColor="#000000"
+        app:title="Rate Us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f1e827"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#00154F"
+        android:gravity="center_horizontal"
+        android:text="@string/rate_us_tagline"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+    <RatingBar
+        android:stepSize="1"
+        android:numStars="5"
+        android:layout_gravity="center"
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvRatingScale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/feedback"
+        android:gravity="top"
+        android:hint="Tell us your reviews"
+        android:lines="5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine" />
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#00154F"
+        android:text="Send feedback"
+        android:textColor="#F4AF1B" />
+    </LinearLayout>
+</LinearLayout>

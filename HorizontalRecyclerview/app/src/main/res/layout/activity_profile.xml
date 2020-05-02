@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00154F"
+        app:title="Profile"
+        app:titleTextColor="@color/cardview_light_background"></android.support.v7.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="0dp"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_wave_bg" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/profile_icon" />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Mohit Shah"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="jaishah97@gmail.com"
+                android:textColor="#332222"
+                android:textSize="15sp" />
+            <TextView
+                android:textColor="#332222"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:text="921XXXXXXX"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <android.support.v7.widget.CardView
+                android:padding="10dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="#33E4E4D0"
+                android:layout_width="match_parent"
+                android:layout_height="180dp">
+                <RelativeLayout
+                    android:id="@+id/relativeview1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:padding="10dp"
+                        android:layout_alignParentStart="true"
+                        android:paddingStart="15dp"
+                        android:textSize="20sp"
+                        android:paddingTop="15dp"
+                        android:paddingBottom="15dp"
+                        android:background="#00015F"
+                        android:textColor="@android:color/white"
+                        android:text="Wallet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <ImageView
+                        android:paddingLeft="10dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="60dp"
+                        android:src="@drawable/ic_ico_cash"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+                    <TextView
+                        android:paddingLeft="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="20sp"
+                        android:textColor="@android:color/black"
+                        android:layout_marginTop="60dp"
+                        android:layout_alignParentStart="true"
+                        android:text="Cash"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:paddingRight="10dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="60dp"
+                        android:src="@drawable/ic_ico_redeem"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+                    <TextView
+                        android:paddingRight="20dp"
+                        android:layout_marginRight="20dp"
+                        android:textSize="20sp"
+                        android:textColor="@android:color/black"
+                        android:layout_marginTop="60dp"
+                        android:layout_alignParentEnd="true"
+                        android:text="Redeem"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:textColor="@android:color/white"
+                        android:background="@drawable/profile_cashback_background"
+                        android:gravity="center"
+                        android:text="₹ 30"
+                        android:layout_marginLeft="10dp"
+                        android:paddingLeft="5dp"
+                        android:layout_marginTop="100dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_width="100dp"
+                        android:layout_height="40dp" />
+                    <Button
+                        android:clickable="false"
+                        android:enabled="false"
+                        android:textColor="@android:color/white"
+                        android:background="@drawable/profile_redeem_textview_background"
+                        android:gravity="center"
+                        android:text="₹ 250"
+                        android:layout_marginRight="10dp"
+                        android:paddingRight="10dp"
+                        android:layout_marginTop="100dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_width="100dp"
+                        android:layout_height="40dp" />
+                    <ProgressBar
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:progress="30"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_marginTop="160dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="#33E4E4D0"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <RelativeLayout
+                    android:id="@+id/relativeview2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:paddingTop="10dp"
+
+                        android:paddingLeft="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="20sp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentStart="true"
+                        android:text="Click History"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:padding="10dp"
+                        android:onClick="click_history_view_all"
+                        android:textColor="#F4AF1B"
+                        android:background="@drawable/profile_view_all_button_background"
+                        android:layout_alignParentEnd="true"
+                        android:text="View All"
+                        android:layout_marginRight="10dp"
+                        android:paddingRight="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="#33E4E4D0"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <RelativeLayout
+                    android:id="@+id/relativeview3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:paddingTop="10dp"
+
+                        android:paddingLeft="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="20sp"
+                        android:textColor="@android:color/black"
+                        android:layout_alignParentStart="true"
+                        android:text="Redeem History"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:padding="10dp"
+                        android:textColor="#F4AF1B"
+                        android:background="@drawable/profile_view_all_button_background"
+                        android:layout_alignParentEnd="true"
+                        android:text="View All"
+                        android:layout_marginRight="10dp"
+                        android:paddingRight="10dp"
+                        android:onClick="redeem_history_view_all"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <Button
+                android:onClick="Redeem"
+                android:textColor="@android:color/white"
+                android:background="#148319"
+                android:layout_marginTop="10dp"
+                android:text="Redeem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

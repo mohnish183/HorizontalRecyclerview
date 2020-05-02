@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="faq_title_1">What is FP cashback?</string>
+    <string name="faq_answer_1">In addition to the discounts you avail on online shopping that are available on FlyingPaisa, you
+can get additional cashback on your online shopping. It is a kind of extra savings that you can
+make from us. On every store page at FlyingPaisa, you can identify the additional cashback
+available for a store by looking at the CASHBACK RATES table or by looking at Up To 5% FP
+additional Cashback. To earn cashback please ensure that you get redirected to the store only
+via the FlyingPaisa link and make your purchase. Once your transaction is done, cashback gets
+tracked within 48 hours and is added to your pending balance. Due to return policy of the
+product and validation process at retailers, it takes 4-10 weeks of time to get cashback in
+confirmed state. Once we receive the final confirmation of the purchase from the retailer, we
+confirm the cashback then pending balance made available for you to use. CCashback earned
+from FlyingPaisa is your money and can be used to transfer into bank account, recharge your
+phone/DTH, online wallet transfer and get online shopping vouchers.</string>
+
+    <string name="faq_title_2">What are FP Rewards?</string>
+    <string name="faq_answer_2">Some stores like Flipkart do not allow cashback earned from them to be transferred into bank
+account. They can be redeemed for transfers to an online wallet like PayTM, Mobikwik,
+freecharge, making a mobile phone or DTH recharge or getting shopping vouchers. To make
+this distinction easier to understand, the cashback earned from these merchants is referred to
+as FP Rewards. The process for earning of FP Rewards is the same as FP Cashback, and the
+only distinction being that FP Rewards cannot be withdrawn to a bank account. It is due to this,
+that the available balance on a bank transfer page may be less than your actual available
+balance. Any stores carrying Rewards instead of Cashback will explicitly mention them on the
+respective store pages. The majority of stores do not carry rewards.</string>
+
+    <string name="faq_title_3">What is FP Voucher Cash?</string>
+    <string name="faq_answer_3">When You Shop on Amazon, the Cashback Earned can be redeemed Only via Amazon
+Vouchers. Thus the Cash earned on Amazon is Voucher Cash. It can be redeemed in form of
+Amazon Vouchers/Gift Cards via FlyingPaisa which can be used to Shop on Amazon.</string>
+
+    <string name="faq_title_4">What is the difference between pending and available balance?</string>
+    <string name="faq_answer_4">Pending balance earned from purchases made at cashback stores usually requires 4-10 weeks
+wait period before which it becomes available. This is because most stores wait until their return
+and exchange period is over before confirming a purchase. If a merchant finds a purchase as
+cancelled or exchanged, the pending balance does not become available and will be removed
+from your account. Pending balance earned from promotional activity like referrals has its own
+conditions that must be fulfilled for it to become available. Pending balance earned on referring
+your friend will be confirmed once your friend will earn min of Rs 99 in his confirmed state.</string>
+
+    <string name="faq_title_5">Why does FP cashback take so long to confirm?</string>
+    <string name="faq_answer_5">We have to wait for the store to confirm to us that the purchase was not returned or exchanged.
+Merchants also use this time to validate that the sale has met conditions for earning of
+cashback. We constantly work with stores to reduce this wait period. However, just to be on
+good terms we inform you that it may usually take 4-10 weeks for a transaction to be confirmed.</string>
+
+    <string name="faq_title_6">How does my pending balance become available balance?</string>
+    <string name="faq_answer_6">Pending balance earned from purchases made at cashback stores usually requires 4-10 weeks
+wait period before which it becomes available. This is because most stores wait until their return
+and exchange period is over before confirming a purchase. If a merchant finds a purchase as
+cancelled or exchanged, the pending balance does not become available and will be removed
+from your account. Pending balance earned from promotional activity like referrals has its own
+conditions that must be fulfilled for it to become available. Pending balance earned on referring
+your friend will be confirmed once your friend will earn min of Rs 99 in his confirmed state.</string>
+
+    <string name="faq_title_7">There was an offer I saw but it no longer exists on the site. How can I get it?</string>
+    <string name="faq_answer_7">In some cases, the offers given to us by the store are only valid for a limited duration or until
+promotion lasts. When the offer reaches its expiration date, we automatically remove it from our
+Website and Apps. This is done to ensure that you have a great all around experience and do
+not attempt to use offers which no longer work.</string>
+
+    <string name="faq_title_8">How can I withdraw my balance?</string>
+    <string name="faq_answer_8">To withdraw your balance, log in to your FlyingPaisa account and visit the MyAccount section
+>Transfers of your profile. Select the method of withdrawal, bank, e-wallet or recharge. Select
+the account where you wish to transfer your Available Balance. Enter the amount and hit
+Submit. Bank transfers take between 3-4 business days to reflect in your account. eWallet and
+Recharge transactions are almost instantaneous but can take upto 48 hours to reflect in your
+account.</string>
+
+    <string name="faq_title_9">How do I check the status of my order?</string>
+    <string name="faq_answer_9">You can view the Status of Your Order by logging to your FlyingPaisa Account > Gift Card
+Orders by using the unique reference number provided to you at the time of purchase.</string>
+
+</resources>
